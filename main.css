@@ -20,39 +20,48 @@
 
 
  {
-  border: 1px solid black;
+ border: 1px solid black;
 }
 
 /*-------------------------------------------------------------
 *     Base
 --------------------------------------------------------------*/
 
-.body {
+body {
+  color: #212121;
+  font-family: 'lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 
 }
 
-.h1, .h2, .h3, .h4, .h5, .j6 {
+h1, h2, h3, h4, h5, h6 {
 
 }
 
-.li.ol {
+li, ul {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
 
-.li {
+li {
 
 }
 
-.p {
+p {
 
 }
 
-.a {
-
+a {
+  color: #ff4081;
 }
 
+a:active,
+a:hover,
+a:focus {
+  color: #212121;
+}
 
 /*-------------------------------------------------------------
 *     Hero
@@ -90,8 +99,9 @@
 
 .news-link {
   color: #3f51b5;
+  display: block;
   font-size: 22px;
-
+  margin-bottom: 10px;
 }
 
 .news-meta-item {
