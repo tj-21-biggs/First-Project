@@ -92,6 +92,10 @@
   font-size: 22px;
 }
 
+.news-meta-item {
+  display: inline;
+}
+
 
 /*-------------------------------------------------------------
 *     Container
