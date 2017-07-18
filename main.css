@@ -35,9 +35,10 @@
 
 }
 
-.ol {
+.li.ol {
   margin: 0px;
   padding: 0px;
+  list-style-type: none;
 }
 
 .li {
@@ -90,10 +91,12 @@
 .news-link {
   color: #3f51b5;
   font-size: 22px;
+
 }
 
 .news-meta-item {
   display: inline;
+  margin-right: 15px;
 }
 
 
