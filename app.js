@@ -1,12 +1,12 @@
-//*-------------------------------------------------------------
-//*     Document Ready
+//--------------------------------------------------------------
+//     Document Ready
 //--------------------------------------------------------------
 
 
-$Document.Ready(function() {
-  $(' .js-like').on('click', function(event) {
+$(document).Ready(function() {
+  $('.js-like').on('click', function(event) {
     event.preventDefault();
 
-    $(this)
+    $(this).text('liked!');
   });
 })
